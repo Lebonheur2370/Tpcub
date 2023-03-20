@@ -1,0 +1,11 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+fieldset{
+    margin-top: 80px;
+    width: 30;
+    background-color: blue;
+    box-shadow: 5px;
+}
+

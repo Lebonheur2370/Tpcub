@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Premier document html</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <img src="E:\DOCUMENT\Bureau\Cub/profil2.jpg" width="100" height="100" alt="marechal">
+    <h2 id="T1">Element de bloc</h2>
+    <b>
+    <div>Notre premier div</div>
+    <p>Notre Premier paragraphe</p>
+    <h1>Titre 1</h1>
+    <h2>Titre 2</h2>
+    <h3>Titre 3</h3>
+    <h4>Titre 4</h4>
+    <h5>Titre 5</h5>
+    <h6>Titre 6</h6>
+    </b>
+    
+    <h2 id="T2">Element de liste</h2>
+    <i> 
+    <ul>
+        <li> Evan</li>
+        <li>Jared</li>
+        <li>Marechal</li>
+    </ul>
+    <ol>
+        <li>Lundi</li>
+        <li>Mardi</li>
+        <li>Mercredi</li>
+        <li>Jeudi</li>
+        <li>Vendredi</li>
+        <li>Samedi</li>
+        <li>Dimanche</li>
+    </ol>
+    </i>
+    <p>Ma Famille</p>
+    <big>
+        <dl>
+            <dt>Filles</dt>
+            <dd>Nadia</dd>
+            <dd>Tiphaine</dd>
+            <dd>Thecle</dd>
+            <dd>Sylvie</dd>
+            <dt>Garçons</dt>
+            <dd>Francklin</dd>
+            <dd>Donnell</dd>
+            <dd>Gilles</dd>
+            <dd>Marechal</dd>
+        </dl>
+    </big>
+        <h2 id="T3">Les liens</h2>
+        <a href="/ma_deuxieme_page.html">ma_deuxieme_page.html</a>
+    Me contactez a ce numero    <a href="tel:076594648">076594648</a>
+        <a href="mail:lebonheurbambo6@gmail.com">lebonheurbambo6@gmail.com</a>
+
+        <a href="#T1">vers T3</a>
+        <a href="ma_deuxieme_page.html">lien vers</a>
+
+        <h2 id="T2">Balise des images</h2>
+
+        <h2 id="T4">Les Tables</h2>
+        <table border="10" align="center" bgcolor="yellow" cellpadding="40" cellpacing="40" width="6">
+            <tr border="10" align="center" bgcolor="red" valign="botton">
+                <td colspan="2"></td>
+                <td>M</td>
+                <td>P</td>
+                <td>B</td>
+                <td>F</td>
+            </tr>
+            <tr  border="10" align="center" bgcolor="red" valign="botton">
+                <td>Nom</td>
+                <td>Prenom</td>
+                <td>18</td>
+                <td>16</td>
+                <td>15</td>
+                <td>17</td>
+            </tr>
+            <tr border="10" align="center" bgcolor="blue" valign="botton">
+                <td>Nom</td>
+                <td>Prenom</td>
+                <td>18</td>
+                <td>16</td>
+                <td>15</td>
+                <td>17</td>
+            </tr>
+            <tr border="10" align="center" bgcolor="yellow" valign="botton">
+                <td>Nom</td>
+                <td>Prenom</td>
+                <td>18</td>
+                <td>16</td>
+                <td>15</td>
+                <td>17</td>
+            </tr>
+            <tr border="10" align="center" bgcolor="green" valign="botton">
+                <td colspan="2"><b>Tatol </b></td>
+                <td></td>
+                <td></td>
+                <td ></td>
+                <td></td>
+            </tr>
+            <tr border="10" align="center" bgcolor="gray" valign="botton">
+                <td colspan="5"><b>Totaux</b></td>
+                <td></td>
+            </tr>
+            
+        </table>
+
+        <h2 id="T4">Les Formulaires</h2>
+            
+        <form action=""> 
+            <fieldset style="width:30%">
+            <form name="=form.CNOU"> <h1>Formulaires de CNOU </h1></form>
+            <label for="nom"> Nom $ Prenom </label>
+            <input type="text" name="nom" id="nom">
+            <div>
+                <br><label for="Sexe"> Sexe </label><br>
+                <input type="radio" name="sexe" id="sexe" value="Homme" checked> Homme
+                <br><input type="radio" name="sexe" id="sexe" value="Femme">Femme<br>
+                <br>Age<input type="number" name="Age" id="age" placeholder="age" min="05" max="50"><br>
+            </div>
+
+            <div>
+                <br><label for="Ticket">Ticket</label><br>
+                <select name="Ticket" id="Ticket">
+                    <option value="Ticket1"> Ticket1</option>
+                    <option value="Ticket2"> Ticket2</option>
+                    <option value="Ticket3"> Ticket2</option>
+                </select>
+            </div>
+            <div> 
+                <br><label>Accompagnements</label><br>
+                <input type="checkbox" name="Acc1" value="B">Banane
+                <br><input type="checkbox" name="Acc2" value="R">Riz<br>
+                <input type="checkbox" name="Acc3" value="C">Couscous
+            </div>
+             <div> 
+                <br><textarea name="commentaire" id="Rmq" cols="30" rows="4">Remarque:</textarea><br>
+            </div>
+                <input type="submit" nanme="annuler" value="Payer">
+                <br><input type="reset" value="annuler" name="annuler"><br>
+
+                <br><label>Moyens de payements</label><br>
+                <input type="checkbox" name="pay1" value="C">Cash
+                <br><input type="checkbox" name="pay2" value="A">Airtel<br>
+                <input type="checkbox" name="pay3" value="B">Carte Bancaire
+
+                <br><input type="submit" name="payer" value="Payer"><br>
+                <input type="reset" value="annuler" name="annuler">
+        </form>
+    </fieldset>
+
+</body>
+</html>
